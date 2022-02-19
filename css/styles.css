@@ -1,0 +1,239 @@
+@font-face {
+    src: url("fonts/beauty_2/BeautyDemo.ttf");
+    font-family: Beauty;  
+}
+
+@font-face {
+    src: url("fonts/Caviar-Dreams/Caviar_Dreams_Bold.ttf");
+    font-family: Caviar;  
+}
+
+@font-face {
+    src: url("fonts/coyote/Coyote-SemiBoldDEMO.ttf");
+    font-family: Coyote;  
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    background-size: 100% 100%;
+    line-height:100px;  
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+    font-family: Caviar;
+    display: flex;
+}
+
+#nav ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    }
+    
+#nav ol li{
+    list-style: none;
+    border-radius: 20%;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size:14pt;
+}
+
+#nav ol li a{
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+    border-radius: 20%;
+    color:black;
+ }
+
+#nav ol li a:hover{
+    color: #f37791;
+    border-radius: 20%;
+    background-color:white;
+}
+
+#contenido {
+    margin: 0px;
+    padding:0px;
+    background-color: white;
+    color:black;
+}
+
+h1{
+    font-family: Coyote;
+    color: black;
+    font-size: 38pt;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+#contenido ol{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+#contenido ol li{
+    padding: 10px 9px 10px 9px;
+    border-radius: 0%;
+    margin-right: 4%;
+    margin-left: 4%;
+    display: inline-flex;  
+    }
+
+.somos {
+    width: 100%;
+    list-style:none;
+    display:list-item;
+    justify-content: center;
+    padding: 10px 1px 10px 1px;
+    border-radius: 0%;
+    margin-right: 4%;
+    margin-left: 4%;  
+}
+
+footer {
+    width: 100%;
+    height: 1%;
+    background-color: #cbdcf0;
+    margin-top: 10%;
+    padding-top: 2%;
+    display: flex;
+}
+
+#instagram {
+    position: absolute;
+    right: 20px;
+    align-self: right;
+    
+}
+
+#foticos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+}
+
+h5{
+    font-family: Beauty;
+    color: black;
+    font-size: 20pt;
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+h3 {
+    font-family: Coyote;
+    color: black;
+    font-size: 8pt;
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+p {
+    font-family: Caviar;
+    color: black;
+    font-style: normal;
+    font-size: 15pt;
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+    
+
+.izquierda{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.izquierda2{
+    left: 80%;
+}
+
+.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 190px;
+}
+
+.centro2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.derecha{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.pequeno{
+    width: 30px;
+}
+
+.ajustar {
+    width: 237px;
+}
+
+.ajustar2 {
+    width: 237px;
+    border-style:inset;
+    border-color: black;
+}
+
+@media (max-width: 768px) {
+
+    #nav ol {
+    height: auto;
+    width: auto;
+    border-bottom: 0px;
+    display: block;
+    }
+
+    #table ol {
+        height: auto;
+        width: auto;
+        border-bottom: 0px;
+        display: block;
+        }
+
+    .izquierda {
+        width: 30%;
+    }
+
+    .derecha {
+        width: 30%;
+    }
+
+    #foticos {
+        visibility: hidden;
+    }
+
+    }
